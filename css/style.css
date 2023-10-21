@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#fixed-btn {
+    background-color: #fff;
+    /* background-color: #8F7854; */
+    width: 37px;
+    height: 80px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position: fixed;
+    right: 0px;
+    top: 200px;
+}
+
+#fixed-btn a {
+    width: 65%;
+    height: calc(50% - 10px);
+    /* background-color: #8F7854; */
+    /* background-color: #000; */
+    /* color: gray; */
+    display: inline-block;
+    border-radius: 10px;
+    margin-inline: 5px;
+}
+
+#fixed-btn a i {
+    margin: 5px 0 0 4px;
+    color: #666
+}
+
+#fixed-btn a:hover i {
+    color: #218fe6;
+
+}
+
+#fixed-btn a:first-child {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+#home {
+    background-color: #0000006c;
+    height: 100vh;
+    background-image: url(../images/home-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+#home header {
+    /* background-color: #706363; */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+#home header .logo {
+    /* background-color: #762e2e; */
+    width: 20%;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-block: 15px 10px;
+}
+
+#home header nav {
+    /* background-color: #b46363; */
+    width: 70%;
+    display: inline-block;
+    text-align: right;
+}
+
+#home header .logo img {
+    width: 200px;
+}
+
+#home header nav ul {
+    list-style: none;
+}
+
+#home header nav ul li {
+    display: inline-block;
+}
+
+#home header nav ul li a {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.7px;
+    font-family: 'Alegreya', serif;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#home header nav ul li:hover a {
+    color: black;
+    background-color: #8F7854;
+    border-radius: 15px;
+}
+
+#home header nav ul li a:first-of-type {
+    text-transform: capitalize;
+}
+
+/* "our offer" wants more width, so i increase its width, more than 90px. */
+#home header nav ul li:nth-child(3) a {
+    padding-inline: 10px;
+    width: 110px;
+}
+
+/* "blog" wants less width, so i decrease its width, less than 90px. */
+#home header nav ul li:nth-child(5) a {
+    padding-inline: 10px;
+    width: 70px;
+}
+
+#home main {
+    /* background-color: tomato; */
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#home main p {
+    font-family: 'Alegreya Sans';
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#home main p:nth-child(1)::first-letter {
+    text-transform: capitalize;
+}
+
+#home main p:nth-child(3) {
+    min-width: 45%;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.7;
+    padding-inline: 60px;
+}
+
+#home main h1 {
+    font-size: 76px;
+    margin: 5px 0 18px;
+    text-transform: capitalize;
+    font-family: 'Alegreya';
+    font-weight: 400;
+}
+
+#home main .buttons {}
+
+#home main .buttons button {
+    padding: 15px 28px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Alegreya Sans";
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+#home main .buttons .learn-more-btn {
+    margin-right: 7px;
+    background-color: #8F7854;
+}
+
+#home main .buttons .contact-us-btn {
+
+    background-color: transparent;
+    border: #fff 1px solid;
+}
+
+#home main .buttons button:hover {
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#home main .scroll-shap {
+    width: 32px;
+    height: 50px;
+    border: #fff 2px solid;
+    border-radius: 24px;
+    opacity: 0.5;
+    margin-inline: auto;
+    position: relative;
+    top: 95px;
+    display: inline-block;
+}
+
+#home main .scroll-shap .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 10px auto 0;
+    animation-duration: 1.5s;
+
+}
