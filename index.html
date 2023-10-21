@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- #region view port-->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- #endregion -->
+    <title>Bakery | MrAli</title>
+    <!-- #region Custom Favicons-->
+    <!-- <link rel="icon" href="http://www.engage.veented.com/wp-content/uploads/2017/11/cropped-favicon-32x32.png" -->
+    <!-- sizes="32x32"> -->
+    <link rel="icon" href="http://www.engage.veented.com/wp-content/uploads/2017/11/cropped-favicon-192x192.png"
+        sizes="192x192">
+    <!-- #endregion -->
+    <!-- #region Animation css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- #endregion -->
+
+    <!-- #region Alegreya-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- #endregion -->
+    <!-- #region Alegreya Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- #endregion -->
+    <!-- #region cdn icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- #endregion -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- #region محاولة فهم جافا سكريبت، لكن معملتش سكرول ناعم-->
+    <script>
+        var btn = document.getElementById('go-top-btn')
+        var root = document.documentElement
+
+        function scrollToTop() {
+            root.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            })
+        }
+        btn.addEventListener('click', scrollToTop)
+    </script>
+    <!-- #endregion -->
+    <ul id="fixed-btn">
+        <a href="#"><i class="fa fa-search" style="font-size:20px"></i></a>
+        <a href="#"><i class="fa fa-shopping-cart" style="font-size:20px"></i></a>
+    </ul>
+    <div id="go-top-btn">
+        <a href="#home"><i class="fa fa-arrow-circle-o-up"></i></a>
+    </div>
+
+    <div id="home">
+
+        <header>
+            <div class="logo">
+                <a href="#home"><img src="images/bakery-light-1.png" alt="bakery logo"></a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">our offer</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p>welcome to</p>
+            <h1>family bakery</h1>
+            <p>We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.</p>
+            <div class="buttons">
+                <button class="learn-more-btn">learn more</button>
+                <button class="contact-us-btn">contact us</button>
+            </div>
+            <div class="scroll-shap">
+                <div class="dot animate__animated animate__fadeOutDown animate__infinite"></div>
+            </div>
+        </main>
+    </div>
+    <div id="who-we-are">
+        <img class="image" src="images/who-we-are-image.jpg" alt="baked product">
+        <div class="caption">
+            <h2>Who we are?</h2>
+            <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on
+                projects big and small from small residential extensions to full house. We are so happy with this theme.
+                Everyday it make our lives better.</p>
+            <ul class="icon-list">
+                <li>
+                    <i class="fa fa-envira"></i>
+                    <span class="icon-list-text">We care about environment.</span>
+                </li>
+                <li>
+                    <i class="fa fa-users"></i>
+                    <span class="icon-list-text">We are trusted by hundreds of clients.</span>
+                </li>
+                <li>
+                    <i class="fa fa-heart"></i>
+                    <span class="icon-list-text">Social media loves us!</span>
+                </li>
+                <li>
+                    <i class="fa fa-check"></i>
+                    <span class="icon-list-text">This list is super easy to create.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="our-location">
+        <div class="caption">
+            <h2>our location</h2>
+            <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on
+                projects big and small from small residential extensions to full house. We are so happy with this theme.
+                Everyday it make our lives better.</p>
+            <p>Story on projects big and small from small residential extensions to full house. We are so happy with
+                this theme. Everyday it make our lives better.</p>
+        </div>
+        <img src="images/our-location-image.jpg" alt="bakery-store">
+    </div>
+</body>
+
+</html>
