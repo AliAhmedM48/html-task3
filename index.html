@@ -37,6 +37,20 @@
 </head>
 
 <body>
+    <!-- #region محاولة فهم جافا سكريبت، لكن معملتش سكرول ناعم-->
+    <script>
+        var btn = document.getElementById('go-top-btn')
+        var root = document.documentElement
+
+        function scrollToTop() {
+            root.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            })
+        }
+        btn.addEventListener('click', scrollToTop)
+    </script>
+    <!-- #endregion -->
     <ul id="fixed-btn">
         <a href="#"><i class="fa fa-search" style="font-size:20px"></i></a>
         <a href="#"><i class="fa fa-shopping-cart" style="font-size:20px"></i></a>
@@ -101,6 +115,17 @@
                 </li>
             </ul>
         </div>
+    </div>
+    <div id="our-location">
+        <div class="caption">
+            <h2>our location</h2>
+            <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on
+                projects big and small from small residential extensions to full house. We are so happy with this theme.
+                Everyday it make our lives better.</p>
+            <p>Story on projects big and small from small residential extensions to full house. We are so happy with
+                this theme. Everyday it make our lives better.</p>
+        </div>
+        <img src="images/our-location-image.jpg" alt="bakery-store">
     </div>
 </body>
 
