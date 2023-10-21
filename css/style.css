@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #fixed-btn {
     background-color: #fff;
     /* background-color: #8F7854; */
@@ -45,6 +49,22 @@
     margin-top: 8px;
     margin-bottom: 5px;
 }
+
+#go-top-btn i {
+
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    font-size: 40px;
+    color: #666;
+}
+
+#go-top-btn i:hover {
+    /* color: rgb(0, 0, 0); */
+    color: #8F7854;
+    transition: 0.5s;
+}
+
 
 #home {
     background-color: #0000006c;
