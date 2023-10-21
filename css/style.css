@@ -51,7 +51,6 @@ html {
 }
 
 #go-top-btn i {
-
     position: fixed;
     right: 15px;
     bottom: 15px;
@@ -280,4 +279,49 @@ html {
     border-radius: 50%;
     margin-right: 10px;
     padding: 10px;
+}
+
+#our-location {
+    background-color: #f8f8f8;
+    text-align: left;
+    min-height: 100vh;
+    padding-top: 130px;
+
+}
+
+#our-location .caption {
+    /* background-color: tomato; */
+    width: 50%;
+    display: inline-block;
+    padding-inline: 155px 80px;
+    text-align: left;
+    margin-top: 150px;
+
+}
+
+#our-location img {
+    /* background-color: gray; */
+    width: 45%;
+    display: inline-block;
+    padding: 70px;
+    vertical-align: top;
+}
+
+#our-location .caption h2 {
+    font-family: 'Alegreya';
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+
+#our-location .caption p {
+    font-family: 'Alegreya sans';
+    font-weight: 300;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 30px
+}
+
+#our-location .caption p:nth-child(2) {
+    margin-block: 25px 20px;
 }
