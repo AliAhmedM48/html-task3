@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    text-decoration: none;
+    list-style: none;
 }
 
 #fixed-btn {
@@ -15,6 +16,8 @@
     position: fixed;
     right: 0px;
     top: 200px;
+    box-shadow: 0px 0px 100px -10px;
+    box-shadow: 0 0px 17px 1px rgba(0, 0, 0, 0.151);
 }
 
 #fixed-btn a {
@@ -54,7 +57,7 @@
 }
 
 #home header {
-    /* background-color: #706363; */
+    background-color: #00000085;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -64,7 +67,7 @@
     /* background-color: #762e2e; */
     width: 20%;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     padding-block: 15px 10px;
 }
 
@@ -154,7 +157,6 @@
     font-weight: 400;
 }
 
-#home main .buttons {}
 
 #home main .buttons button {
     padding: 15px 28px;
@@ -206,5 +208,56 @@
     border-radius: 50%;
     margin: 10px auto 0;
     animation-duration: 1.5s;
+}
 
+#who-we-are {
+    /* background: aqua; */
+    padding: 150px 40px 0 150px;
+    /* min-height: calc(100vh - 84px); */
+    min-height: 100vh;
+}
+
+#who-we-are .image {
+    background: #000;
+    width: 565px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#who-we-are .caption {
+    /* background-color: tomato; */
+    width: calc(100% - (565px + (100px * 2) + 4px));
+    display: inline-block;
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+#who-we-are .caption h2 {
+    font-family: "Alegreya";
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+#who-we-are .caption p {
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+#who-we-are .caption ul li {
+    padding: 8px 0;
+    font-size: 17px;
+}
+
+#who-we-are .caption ul li i.fa {
+    color: #8e7754;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 10px;
 }
