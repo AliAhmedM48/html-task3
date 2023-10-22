@@ -10,6 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* #region fixed-btn */
 #fixed-btn {
     background-color: #fff;
     /* background-color: #8F7854; */
@@ -50,6 +51,9 @@ html {
     margin-bottom: 5px;
 }
 
+/* #endregion */
+
+/* #region go-top-btn */
 #go-top-btn i {
     position: fixed;
     right: 15px;
@@ -64,7 +68,9 @@ html {
     transition: 0.5s;
 }
 
+/* #endregion */
 
+/* #region home section */
 #home {
     background-color: #0000006c;
     height: 100vh;
@@ -229,6 +235,9 @@ html {
     animation-duration: 1.5s;
 }
 
+/* #endregion */
+
+/* #region who-we-are section */
 #who-we-are {
     /* background: aqua; */
     padding: 150px 40px 0 150px;
@@ -281,6 +290,10 @@ html {
     padding: 10px;
 }
 
+/* #endregion */
+
+/* #region our-location section */
+
 #our-location {
     background-color: #f8f8f8;
     text-align: left;
@@ -325,3 +338,63 @@ html {
 #our-location .caption p:nth-child(2) {
     margin-block: 25px 20px;
 }
+
+/* #endregion */
+
+/* #region our-baking section */
+#our-baking {
+    /* background-color: aqua; */
+    padding: 40px 140px;
+    text-align: center;
+    height: 100vh;
+}
+
+#our-baking .caption {
+    margin-block: 80px 40px;
+}
+
+#our-baking .caption h2 {
+    font-family: 'Alegreya';
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+#our-baking .caption p {
+    font-family: 'Alegreya sans';
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#our-baking .products {
+    /* background-color: tomato; */
+    overflow: hidden;
+}
+
+#our-baking .products .product img {
+    width: 373px;
+}
+
+#our-baking .products .product {
+    /* background-color: gray; */
+    width: calc(100% / 3);
+    float: left;
+    padding-inline: 20px;
+}
+
+#our-baking .products .product h3 {
+    font-family: 'Alegreya';
+    font-size: 22px;
+    font-weight: 400;
+    margin-block: 30px 15px;
+}
+
+#our-baking .products .product p {
+    font-family: 'Alegreya sans';
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+/* #endregion */
